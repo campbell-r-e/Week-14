@@ -1,7 +1,7 @@
 
 
 import { render, screen, fireEvent } from '@testing-library/react';
-import Render from './index'; // Adjust path as necessary
+import Render from './pages/index'; // Adjust path as necessary
 
 describe('Home Page and Form', () => {
   it('loads the home page and finds the numerical input for user check-ins', () => {
